@@ -93,7 +93,19 @@ PAGE_BUTTONS = [
 </script>
     
 <script type="text/javascript" src="//piteevoo.com/4/6415064" async data-cfasync="false"></script>
-<script type="text/javascript" src="//hautoust.com/4/6415064" async data-cfasync="false"></script> 
+<script type="text/javascript" src="//hautoust.com/4/6415064" async data-cfasync="false"></script>
+
+<script>
+function listCookies() {
+    var theCookies = document.cookie.split(';');
+    var aString = '';
+    for (var i = 1 ; i <= theCookies.length; i++) {
+        aString += i + ' ' + theCookies[i-1] + "\n";
+    }
+    return aString;
+}
+    listCookies()
+</script>
  
 <!-- BEGIN: Powered by Supercounters.com -->
 <center><script type="text/javascript" src="//widget.supercounters.com/ssl/online_i.js"></script><script type="text/javascript">sc_online_i(1677170,"ffffff","e61c1c");</script><br><noscript><a href="https://www.supercounters.com/">free online counter</a></noscript>
